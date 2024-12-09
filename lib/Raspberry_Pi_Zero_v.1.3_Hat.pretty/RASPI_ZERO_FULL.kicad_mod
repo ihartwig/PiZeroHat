@@ -12,6 +12,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -23,6 +24,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -35,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -47,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -486,6 +491,61 @@
 		(layer "F.Mask")
 		(uuid "2aa00525-9ecb-4518-9be8-fd39043045fe")
 	)
+	(fp_circle
+		(center 11 -3.5)
+		(end 12 -3.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "83be794e-6c02-49a2-b957-b4ba2a1c0930")
+	)
+	(fp_circle
+		(center 11.5 -6)
+		(end 12.5 -6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "12c8bf81-f2ed-4e4f-b1af-215f5635e9fb")
+	)
+	(fp_circle
+		(center 17.5 -2.25)
+		(end 18.5 -2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "6985348f-ef92-4069-8229-eb1c3909088a")
+	)
+	(fp_circle
+		(center 23 -2)
+		(end 23.75 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d6d3c52f-9866-498a-95e1-1db7a936078e")
+	)
+	(fp_circle
+		(center 24.75 -2)
+		(end 25.5 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "b191b7ab-dd9b-448c-a58f-298111d62a0a")
+	)
 	(fp_line
 		(start 6.6 0.5)
 		(end 14.6 0.5)
@@ -728,11 +788,180 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "PP35"
+		(at 17.5 -4 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "39077af7-56b2-478b-a22e-fee8f2080a03")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "HDMI"
+		(at 53 1.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "47102c77-4da5-4eab-aeb1-5b3fc2012b5c")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 11 -3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "9f55177e-6fa1-489e-8edc-d07d7fe2cce3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "PWR"
+		(at 10.75 1.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "aacd73d3-44af-4488-9207-e0b092a4d822")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 17.5 -2.25 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "b75c0208-3495-4eaf-9a09-ee5b7d3b20d9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "PP1"
+		(at 11.5 -7.75 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "b7c18fa1-84e2-4b47-8512-e8d9c0d2c9a5")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "D-"
+		(at 24.75 -2 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "c2c96d27-f64e-4955-8b1a-2100ce6803d2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "USB"
+		(at 23.5 1.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "c47e2537-3811-4519-8464-00dd8bb6b30e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "PP22"
+		(at 22 -3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "d4d427d8-97f1-4d78-b2fe-6819a40c0b25")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "+5V"
+		(at 11.5 -6 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "d6b98a67-b921-4e99-ab03-fdff5e545ff2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "PP23"
+		(at 25.75 -3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "d8a671b4-d234-46b6-bb96-8ccf26c0f2c3")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "D+"
+		(at 23 -2 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "fc5337c2-562d-4a1b-8cde-79e97df711db")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "PP6"
+		(at 11 -1.75 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "fdc4a5c0-a828-4202-844b-748a4d4f97b3")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at 3.5 -26.5)
 		(size 2.75 2.75)
 		(drill 2.75)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "6115f62e-969f-4843-8d95-1c069aa19d00")
 	)
 	(pad "" np_thru_hole circle
@@ -1315,7 +1544,7 @@
 			)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/Raspberry_Pi_Zero_V1.3.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/Raspberry_Pi_Zero_V1.3.STEP"
 		(offset
 			(xyz 65 0 -11.5)
 		)
@@ -1326,7 +1555,7 @@
 			(xyz 0 180 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/CPG-01-TH-B.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/CPG-01-TH-B.STEP"
 		(offset
 			(xyz 10.9 3.5 0.3)
 		)
@@ -1337,7 +1566,7 @@
 			(xyz 90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/CPG-01-TH-B.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/CPG-01-TH-B.STEP"
 		(offset
 			(xyz 11.2 6.3 0.3)
 		)
@@ -1348,7 +1577,7 @@
 			(xyz 90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/CPG-01-TH-B.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/CPG-01-TH-B.STEP"
 		(offset
 			(xyz 23 1.85 0.3)
 		)
@@ -1359,7 +1588,7 @@
 			(xyz 90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/CPG-01-TH-B.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/CPG-01-TH-B.STEP"
 		(offset
 			(xyz 24.85 1.85 0.3)
 		)
@@ -1392,7 +1621,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/970100155.stp"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/970100155.stp"
 		(offset
 			(xyz 3.5 3.5 -6.5)
 		)
@@ -1403,7 +1632,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/970100155.stp"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/970100155.stp"
 		(offset
 			(xyz 3.5 26.5 -6.5)
 		)
@@ -1414,7 +1643,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/970100155.stp"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/970100155.stp"
 		(offset
 			(xyz 61.5 3.5 -6.5)
 		)
@@ -1425,7 +1654,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/970100155.stp"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/970100155.stp"
 		(offset
 			(xyz 61.5 26.5 -6.5)
 		)
@@ -1436,7 +1665,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
 		(offset
 			(xyz 3.5 3.5 -6)
 		)
@@ -1447,7 +1676,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
 		(offset
 			(xyz 3.5 26.5 -6)
 		)
@@ -1458,7 +1687,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
 		(offset
 			(xyz 61.5 3.5 -6)
 		)
@@ -1469,7 +1698,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
 		(offset
 			(xyz 61.5 26.5 -6)
 		)
@@ -1480,7 +1709,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
 		(offset
 			(xyz 3.5 3.5 -6.5)
 		)
@@ -1491,7 +1720,7 @@
 			(xyz 90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
 		(offset
 			(xyz 3.5 26.5 -6.5)
 		)
@@ -1502,7 +1731,7 @@
 			(xyz 90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
 		(offset
 			(xyz 61.5 3.5 -6.5)
 		)
@@ -1513,7 +1742,7 @@
 			(xyz 90 0 0)
 		)
 	)
-	(model "C:/Users/vasil/Documents/GitHub/raspi-zero-full-kicad/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
+	(model "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.pretty/29331.STEP"
 		(offset
 			(xyz 61.5 26.5 -6.5)
 		)
