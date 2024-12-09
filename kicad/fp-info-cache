@@ -1,4 +1,4 @@
-24413521104488096
+24420456065051029
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88244,6 +88244,34 @@ WiFi IEEE802.11 b/g/n
 Raspberry_Pi_Zero_v.1.3_Hat
 RASPI_ZERO_FULL
 Raspberry Pi board model B+, full outline with position of big connectors &amp; drill holes
+
+0
+44
+44
+Raspberry_Pi_Zero_v.1.3_Hat
+RPi_Zero_ZeroW_Zero2W_Hat_NoPads_Header
+Raspberry Pi HAT outline for headers and USB testpoints on Zero v1.3, Zero v1.1, and Zero 2W Pis
+
+0
+44
+44
+Raspberry_Pi_Zero_v.1.3_Hat
+RPi_Zero_ZeroW_Zero2W_Hat_NoPads_NoHeader
+Raspberry Pi HAT outline for headers and USB testpoints on Zero v1.3, Zero v1.1, and Zero 2W Pis
+
+0
+0
+0
+Raspberry_Pi_Zero_v.1.3_Hat
+RPi_Zero_ZeroW_Zero2W_Hat_Pads_NoHeader
+Raspberry Pi HAT outline for headers and USB testpoints on Zero v1.3, Zero v1.1, and Zero 2W Pis
+
+0
+4
+4
+Raspberry_Pi_Zero_v.1.3_Hat
+RPi_Zero_ZeroW_Zero2W_Hat_Pads_wHeader
+Raspberry Pi HAT outline for headers and USB testpoints on Zero v1.3, Zero v1.1, and Zero 2W Pis
 
 0
 44
