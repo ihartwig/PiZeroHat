@@ -1,0 +1,19 @@
+# For PCBs designed using KiCAD: http://www.kicad-pcb.org/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+rescue-backup/
+
+# Netlist and BOM files (exported from Eeschema)
+*.net
+*.xml
+
+# Autorouter files (exported from Pcbnew)
+.dsn
+
+# Mac OS
+.DS_Store
+
