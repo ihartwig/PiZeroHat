@@ -738,6 +738,14 @@
 		(uuid "c037a326-02f4-44a5-855d-d84eef5335a7")
 	)
 	(pad "" np_thru_hole circle
+		(at -3.5 -26.5)
+		(size 6 6)
+		(drill 2.75)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 0.8)
+		(uuid "c76c1e02-435b-43be-98eb-5d8881b7a91e")
+	)
+	(pad "" np_thru_hole circle
 		(at -3.5 -3.5)
 		(size 6 6)
 		(drill 2.75)
