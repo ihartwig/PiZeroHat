@@ -10,6 +10,17 @@ The `lib` directory contains the footprint and symbol for RASPI_ZERO_FULL. Add i
 
 To enable 3D model rendering, add an environmental variable of `KICAD_PIZEROHAT_LIB_DIR` under Preferences > Configure Paths...` so that the files can be found.
 
+> [!NOTE]
+> This fork has modified the test pad locations to match Raspberry Pi Foundation documentation.
+> RASPI_ZERO_FULL is drawn with the top layer looking into the bottom of the Pi PCB.
+> RPi_Zero_ZeroW_Zero2W_x footprints are drawn with the top layer looking through the top of the Pi PCB.
+
+### Compatibility
+
+The testpoint locations used for USB and power on the Raspberry Pi Zero v1.3, Zero W v1.1, and Zero 2 W share the same locations and are all compatible with this footprint. There are more testpoints available than are included in the footprint.
+![Pi Zero W vs Zero 2 W Test Pads](assets/raspberry-pi-zero-w-vs-zero-2-w-test-pads.jpg) 
+![Pi Zero 2W Test Pads Details](assets/raspberry-pi-zero-2-w-test-pads-crop.png)
+
 ## Details
 
 ![Screenshot PiZeroHat_02](assets/PiZeroHat_02.jpg)
